@@ -225,3 +225,7 @@ if (customers !== null && customers !== undefined)
 
 // console.log(customers?.[0]);  //if customers[0] is not defined then it logs undefined
 
+//3. Optional call
+let log : any= null;
+//log('a');   //if you run this program then your program will be crash because log is null
+log?.('a');   //only if log referencing an actual function
